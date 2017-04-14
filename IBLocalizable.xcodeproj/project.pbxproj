@@ -43,6 +43,8 @@
 		83E6590C1D565DF9002023B7 /* LocalizableUISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6590B1D565DF9002023B7 /* LocalizableUISearchBar.swift */; };
 		83E6590D1D565DF9002023B7 /* LocalizableUISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6590B1D565DF9002023B7 /* LocalizableUISearchBar.swift */; };
 		993D44C6DA625923A1C9BF71 /* Pods_IBLocalizableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F6A12C4F155F4CBCFFC6C6 /* Pods_IBLocalizableTests.framework */; };
+		C7965E221EA10B220098362D /* IBLocalizableSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7965E211EA10B210098362D /* IBLocalizableSettings.swift */; };
+		C7965E231EA10B2D0098362D /* IBLocalizableSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7965E211EA10B210098362D /* IBLocalizableSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,8 @@
 		83E6590B1D565DF9002023B7 /* LocalizableUISearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableUISearchBar.swift; sourceTree = "<group>"; };
 		8C215A8B463A724380C11C9A /* Pods-IBLocalizableTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLocalizableTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IBLocalizableTests/Pods-IBLocalizableTests.release.xcconfig"; sourceTree = "<group>"; };
 		C5F6A12C4F155F4CBCFFC6C6 /* Pods_IBLocalizableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBLocalizableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7965E201EA108BA0098362D /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		C7965E211EA10B210098362D /* IBLocalizableSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBLocalizableSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,7 @@
 		837CE3FF1D4C50B000EC3FDA = {
 			isa = PBXGroup;
 			children = (
+				C7965E201EA108BA0098362D /* Podfile */,
 				837CE40B1D4C50B000EC3FDA /* IBLocalizable */,
 				837CE4311D4C5B6900EC3FDA /* IBLocalizableSample */,
 				837CE4171D4C50B000EC3FDA /* IBLocalizableTests */,
@@ -201,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				837CE42A1D4C59AE00EC3FDA /* LocalizableString.swift */,
+				C7965E211EA10B210098362D /* IBLocalizableSettings.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -460,6 +466,7 @@
 				837CE4671D4C78AF00EC3FDA /* LocalizableNavigationItem.swift in Sources */,
 				83E6590C1D565DF9002023B7 /* LocalizableUISearchBar.swift in Sources */,
 				837CE45E1D4C74D400EC3FDA /* LocalizableTextView.swift in Sources */,
+				C7965E221EA10B220098362D /* IBLocalizableSettings.swift in Sources */,
 				837CE4581D4C6C7600EC3FDA /* LocalizableView.swift in Sources */,
 				837CE4641D4C768F00EC3FDA /* LocalizableUIBarItem.swift in Sources */,
 			);
@@ -493,6 +500,7 @@
 				837CE4351D4C5B6900EC3FDA /* ViewController.swift in Sources */,
 				837CE4331D4C5B6900EC3FDA /* AppDelegate.swift in Sources */,
 				83E6590D1D565DF9002023B7 /* LocalizableUISearchBar.swift in Sources */,
+				C7965E231EA10B2D0098362D /* IBLocalizableSettings.swift in Sources */,
 				837CE4681D4C78AF00EC3FDA /* LocalizableNavigationItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
