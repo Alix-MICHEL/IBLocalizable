@@ -8,11 +8,11 @@
 
 import Foundation
 
-class IBLocalizableSettings {
+public class IBLocalizableSettings {
     
     static var bundle: Bundle = Bundle.main
     
-    class func setCurrentBundle(bundle: Bundle) {
+    public class func setCurrentBundle(bundle: Bundle) {
         self.bundle = bundle
     }
     
