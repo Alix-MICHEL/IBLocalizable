@@ -18,7 +18,13 @@ extension String {
     
     public func localize(withBundle bundle: Bundle) -> String
     {
-        return NSLocalizedString(self, tableName: nil, bundle: bundle, value: "", comment: "")
+        let localizedString = NSLocalizedString(self, tableName: nil, bundle: bundle, value: "", comment: "")
+        
+        if localizedString == self {
+            print("[IBLocalizable] ⚠️ String \"\(self)\" may be mistyped or undefined. ⚠️")
+        }
+        
+        return localizedString
     }
 
 }
